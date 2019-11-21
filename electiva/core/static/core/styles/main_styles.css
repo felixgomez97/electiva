@@ -50,7 +50,9 @@ COLOR PALETTE
 /*********************************
 2. Body and some general stuff
 *********************************/
-
+html {
+	scroll-behavior: smooth;
+}
 *
 {
 	margin: 0;
@@ -113,12 +115,12 @@ a, a:hover, a:visited, a:active, a:link
 p a:active
 {
 	position: relative;
-	color: #FF6347;
+	color: rgb(71, 83, 255);
 }
 p a:hover
 {
 	color: #FFFFFF;
-	background: #ffa07f;
+	background: #7fb6ff;
 }
 p a:hover::after
 {
@@ -126,13 +128,13 @@ p a:hover::after
 }
 ::selection
 {
-	background: #FFD266;
-	color: #C88E00;
+	background: rgb(102, 194, 255);
+	color: rgb(1, 85, 141);
 }
 p::selection
 {
-	background: #FFD266;
-	color: #C88E00;
+	background: rgb(102, 194, 255);
+	color: rgb(1, 85, 141);
 }
 h1{font-size: 36px;}
 h2{font-size: 22px;}
